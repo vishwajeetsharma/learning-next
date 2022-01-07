@@ -9,10 +9,9 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello I'm <b>Vishwajeet Sharma</b> I'm a software developer. You can contact me on <a href="https://twitter.com/Vishwaj57908623">Twitter</a>.</p>
+        <p>Hello I'm <b>Vishwajeet Sharma</b> I'm a software developer. You can contact me on <a href="https://twitter.com/Vishwaj57908623" target="_blank" rel='noreffer'>Twitter</a>.</p>
         <p>
-          <Link href="/posts/first-post"><a>First Post</a></Link>{' '}{' '}
-          <Link href="/alert">Alert</Link>
+          <Link href="/posts/first-post"><a>First Post</a></Link>
         </p>
       </section>
     </Layout>
