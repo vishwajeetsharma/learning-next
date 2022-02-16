@@ -9,7 +9,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello I'm <b>Vishwajeet Sharma</b> I'm a software developer. You can contact me on <a href="https://twitter.com/Vishwaj57908623" target="_blank" rel='noreffer'>Twitter</a>.</p>
+        <p>Hello I'm <b><Link href="/resume"><a>Vishwajeet Sharma</a></Link></b> I'm a software developer. You can contact me on <a href="https://twitter.com/Vishwaj57908623" target="_blank" rel='noreffer'>Twitter</a>.</p>
         <p>
           <Link href="/posts/first-post"><a>First Post</a></Link>
         </p>
